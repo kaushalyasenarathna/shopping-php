@@ -1,0 +1,186 @@
+body{
+	background: #f4f4f4;
+}
+
+.navbar{
+	min-height: 33px !important;
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.navbar-nav > li > a, .navbar-brand{
+	padding-top: 6px !important;
+	padding-bottom: 0 !important;
+	height: 33px;
+}
+
+.navbar {
+  background-color: #ecd9e8;
+}
+.navbar .navbar-brand {
+  color: #51073e;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #410642;
+}
+.navbar .navbar-text {
+  color: #51073e;
+}
+.navbar .navbar-text a {
+  color: #410642;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+  color: #410642; 
+}
+.navbar .navbar-nav .nav-link {
+  color: #51073e;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #410642;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #410642;
+  background-color: #f473a1;
+}
+.navbar .navbar-toggle {
+  border-color: #f473a1;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #f473a1;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+  color: #51073e;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #51073e;
+}
+.navbar .navbar-link {
+  color: #51073e;
+}
+.navbar .navbar-link:hover {
+  color: #410642;
+}
+
+
+.logo{
+	font-size: 20px;
+
+}
+
+.main-color-bg{
+	background-color:#410642 !important;
+	 color: #61085b !important;
+	color: #ffffff !important;
+}
+
+@media (max-width: 575px) {
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #51073e;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #410642;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #410642;
+    background-color: #f473a1;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #51073e;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #410642;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #410642;
+    background-color: #f473a1;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #51073e;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #410642;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #410642;
+    background-color: #f473a1;
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #51073e;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #410642;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #410642;
+    background-color: #f473a1;
+  }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: #51073e;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+  color: #410642;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: #410642;
+  background-color: #f473a1;
+}
+
+/*header*/
+#header{
+	background: #ec82d6;
+	color: #6d0f78;
+	padding-top: 10px;
+	margin-bottom: 15px;
+}
+ #count{
+	border-radius: 50%;
+	position: relative;
+	top: -10px;
+	left: -10px;
+}
+
+#navbarDropdown{
+	padding-top: 10px;
+}
+
+/*breadcrumb*/
+.breadcrumb{
+	background: #cccccc;
+	color: #333333;
+}
+
+.breadcrumb a{
+	color: #333333;
+}
+/*main*/
+.dash-box{
+	text-align: center;
+}
